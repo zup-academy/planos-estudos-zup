@@ -1,106 +1,57 @@
-Plano de estudos para escrever testes automatizados que maximizem a chance de revelação de problemas o mais cedo possível:
+1.  Descrição do motivo que explica a importância do plano: A criação de testes automatizados é uma prática fundamental para garantir a qualidade e estabilidade de software, além de auxiliar na detecção de problemas mais rapidamente. Por isso, é essencial que profissionais de tecnologia e desenvolvimento tenham conhecimento e habilidade para escrever testes automatizados de qualidade, e esse plano tem como objetivo habilitar as pessoas a fazerem isso.
+    
+2.  Objetivo de aprendizagem conectado com nível 3 da taxonomia de bloom: Ao seguir esse plano, a pessoa será capaz de criar testes automatizados utilizando a pirâmide de testes, aplicando conceitos de nível 3 da taxonomia de Bloom, como análise e síntese.
+    
+3.  Pré-requisitos necessários para seguir o plano: Conhecimento básico de programação e habilidades para escrever códigos em uma linguagem de programação.
+    
+4.  Lista de objetivos de aprendizagem conectados com nível 3 da taxonomia de bloom:
+    
 
-Descrição do motivo que explica a importância do plano:
-O desenvolvimento de software requer uma abordagem sistemática de testes para garantir a qualidade do produto. Os testes automatizados ajudam a maximizar a eficiência do processo de teste e revelam problemas mais cedo, o que economiza tempo e dinheiro a longo prazo. Neste plano, abordaremos diferentes tipos de testes e técnicas que ajudarão a escrever testes automatizados eficazes.
+*   Analisar e compreender os diferentes tipos de testes automatizados e a importância de cada um;
+*   Sintetizar e aplicar os conceitos da pirâmide de testes para criar uma estratégia de testes automatizados eficiente;
+*   Analisar e aplicar técnicas para criação de testes unitários;
+*   Sintetizar e aplicar conceitos para criação de testes de integração;
+*   Analisar e aplicar conceitos para criação de testes de ponta a ponta;
+*   Sintetizar e aplicar conceitos para criação de testes de aceitação do usuário.
 
-Objetivo de aprendizagem conectado com nível 3 da taxonomia de bloom:
-Ao concluir este plano, o aluno será capaz de avaliar os diferentes tipos de testes e técnicas para escrever testes automatizados eficazes, com o objetivo de maximizar a chance de revelação de problemas o mais cedo possível, conectando-se com o nível 3 da taxonomia de Bloom - "Aplicar".
+5.  Lista de temas que serão abordados no plano ordenados por uma sequência lógica de consumo:
 
-Pré-requisitos necessários:
+*   Introdução aos testes automatizados: conceitos básicos e importância
+    *   Livros de referência: "Test Driven Development: By Example" de Kent Beck e "The Art of Unit Testing" de Roy Osherove e "Effective Software Testing: A developer's guide" de Maurício Aniche.
+    *   Objetivo de aprendizagem específico: Analisar e compreender os diferentes tipos de testes automatizados e a importância de cada um.
+*   Pirâmide de testes: conceitos e estratégias para criação de testes automatizados
+    *   Livros de referência: "Growing Object-Oriented Software, Guided by Tests" de Steve Freeman e Nat Pryce e "Test Pyramid" de Mike Cohn
+    *   Objetivo de aprendizagem específico: Sintetizar e aplicar os conceitos da pirâmide de testes para criar uma estratégia de testes automatizados eficiente.
+*   Testes unitários: conceitos e técnicas para criação
+    *   Livros de referência: "xUnit Test Patterns" de Gerard Meszaros e "Working Effectively with Unit Tests" de Jay Fields, Shane Harvie e Martin Fowler
+    *   Objetivo de aprendizagem específico: Analisar e aplicar técnicas para criação de testes unitários.
+*   Testes de integração: conceitos e técnicas para criação
+    *   Livros de referência: "Continuous Delivery" de Jez Humble e David Farley e "Integration Testing from the Trenches" de Tim Perry
+    *   Objetivo de aprendizagem específico: Sintetizar e aplicar conceitos para criação de testes de integração.
+*   Testes de ponta a
 
-Conhecimento básico de programação
-Experiência em desenvolvimento de software
-Lista de objetivos de aprendizagem conectados com o nível 3 da taxonomia de bloom:
-Compreender as técnicas de testes estruturais e como aplicá-las em testes automatizados (Aplicar)
-Conhecer as técnicas de testes de limites e como aplicá-las em testes automatizados (Aplicar)
-Compreender as técnicas de testes baseados em especificação e como aplicá-las em testes automatizados (Aplicar)
-Compreender as técnicas de testes baseados em propriedade e como aplicá-las em testes automatizados (Aplicar)
-Compreender as técnicas de testes de estado e como aplicá-las em testes automatizados (Aplicar)
-Compreender a pirâmide de testes e como aplicá-la em testes automatizados (Aplicar)
-Compreender os conceitos de testes de unidade, integração e aceitação e como aplicá-los em testes automatizados (Aplicar)
-Compreender a importância dos mutantes e como aplicá-los em testes automatizados (Aplicar)
-Compreender como projetar códigos para testabilidade (Aplicar)
-Lista de temas abordados no plano ordenados por uma sequência lógica de consumo:
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e)![Alberto SOUZA](/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAEdFTp54tSlfFS-8gBnA9N2_VrPAGaLfkaBkj64fqQXqaQ%3Ds96-c&w=64&q=75)
 
-Temo 0: Orientações gerais.
+contnua
 
-Para cada tema explore o código do seu projeto, de projetos open source e tente explicar com suas palavras o que você entendeu.
+ponta: conceitos e técnicas para criação
 
+*   Livros de referência: "Selenium Testing Tools Cookbook" de Unmesh Gundecha e "End-to-End Testing with Cypress" de Dylan Larrson
+*   Objetivo de aprendizagem específico: Analisar e aplicar conceitos para criação de testes de ponta a ponta.
+*   Testes de aceitação do usuário: conceitos e técnicas para criação
+    *   Livros de referência: "Specification by Example" de Gojko Adzic e "The Cucumber Book" de Matt Wynne e Aslak Hellesøy
+    *   Objetivo de aprendizagem específico: Sintetizar e aplicar conceitos para criação de testes de aceitação do usuário.
 
-
-
-Tema 1: Testes Estruturais
-Referências:
-Curso online: "Testing Fundamentals: Structural Testing" da Pluralsight (https://www.pluralsight.com/courses/testing-fundamentals-structural-testing)
-Livro: "Testing Computer Software" de Cem Kaner, Jack Falk e Hung Q. Nguyen (https://www.amazon.com/Testing-Computer-Software-Cem-Kaner/dp/0471358460)
-Artigo científico: "Structural Testing" de Michael Hunter (http://www.testingeducation.org/k04/StructuralTestingHunter.pdf)
-Objetivo de aprendizagem: Compreender as técnicas de testes estruturais e como aplicá-l
-
-
-
-Alberto SOUZA
-continua
-s em testes automatizados (Aplicar)
-
-Tema 2: Testes de Limites
-
-Referências:
-Curso online: "Testing Fundamentals: Boundary Testing" da Pluralsight (https://www.pluralsight.com/courses/testing-fundamentals-boundary-testing)
-Livro: "Software Testing Techniques" de Boris Beizer (https://www.amazon.com/Software-Testing-Techniques-Boris-Beizer/dp/0442319572)
-Artigo científico: "A Brief Introduction to Boundary Testing" de Michael Hunter (http://www.testingeducation.org/k04/BoundaryTestsHunter.pdf)
-Objetivo de aprendizagem: Conhecer as técnicas de testes de limites e como aplicá-las em testes automatizados (Aplicar)
-Tema 3: Testes Baseados em Especificação
-
-Referências:
-Curso online: "Testing Fundamentals: Specification-based Testing" da Pluralsight (https://www.pluralsight.com/courses/testing-fundamentals-specification-based-testing)
-Livro: "Software Testing: An ISTQB-BCS Certified Tester Foundation guide" de Brian Hambling, Peter Morgan, Angelina Samaroo e Geoff Thompson (https://www.amazon.com/Software-Testing-ISTQB-Certified-Tester-Foundation/dp/1780172999)
-Artigo científico: "Specification-based testing with JUnit" de Michael Feathers (https://michaelfeathers.silvrback.com/specification-based-testing-with-junit)
-Objetivo de aprendizagem: Compreender as técnicas de testes baseados em especificação e como aplicá-las em testes automatizados (Aplicar)
-Tema 4: Testes Baseados em Propriedade
-
-Referências:
-Curso online: "Functional Programming in Scala: Property-based testing" da Coursera (https://www.coursera.org/learn/scala-functional-programming/home/welcome)
-Livro: "Property-Based Testing with PropEr, Erlang, and Elixir" de Fred Hebert (https://pragprog.com/titles/fhproper/property-based-testing-with-proper-erlang-and-elixir/)
-Artigo científico: "QuickCheck: A Lightweight Tool for Random Testing of Haskell Programs" de Koen Claessen e John Hughes (https://www.cs.tufts.edu/~nr/cs257/archive/john-hughes/quick.pdf)
-Objetivo de aprendizagem: Compreender as técnicas de testes baseados em propriedade e como aplicá-las em testes automatizados (Aplicar)
-Tema 5: Testes de Estado
-
-Referências:
-Curso online: "Testing Fundamentals: State-based Testing" da Pluralsight (https://www.pluralsight.com/courses/testing-fundamentals-state-based-testing)
-Livro: "Testing Object-Oriented Systems: Models, Patterns, and Tools" de Robert V. Binder (https://www.amazon.com/Testing-Object-Oriented-Systems-Models-Patterns/dp/0201794274)
-Artigo científico: "A Brief Introduction to State-based Testing" de Michael Hunter (http://www.testingeducation.org/k04/StateTestingHunter.pdf)
-Objetivo de aprendizagem: Compreender as técnicas de testes de estado e como aplicá-las em testes
-
-
-
-Alberto SOUZA
-continua
-automatizados (Aplicar)
-
-Tema 6: Pirâmide de Testes
-
-Referências:
-Curso online: "Building a Testing Pyramid" da Pluralsight (https://www.pluralsight.com/courses/building-testing-pyramid)
-Livro: "The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations" de Gene Kim, Patrick Debois, John Willis e Jez Humble (https://www.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002)
-Objetivo de aprendizagem: Compreender a pirâmide de testes e como aplicá-la em testes automatizados (Aplicar)
-Tema 7: Testes de Unidade, Integração e Aceitação
-
-Referências:
-Curso online: "Test-Driven Development (TDD) with Python" da Udemy (https://www.udemy.com/course/test-driven-development-python/)
-Livro: "xUnit Test Patterns: Refactoring Test Code" de Gerard Meszaros (https://www.amazon.com/xUnit-Test-Patterns-Refactoring-Code/dp/0131495054)
-Objetivo de aprendizagem: Compreender os conceitos de testes de unidade, integração e aceitação e como aplicá-los em testes automatizados (Aplicar)
-Tema 8: Mutantes
-
-Referências:
-Curso online: "Mutation Testing with Stryker.NET" da Pluralsight (https://www.pluralsight.com/courses/mutation-testing-stryker-dot-net)
-Livro: "Mutation Testing" de Giuliano Antoniol, Yann-Gaël Guéhéneuc e Anne-Françoise Le Meur (https://www.amazon.com/Mutation-Testing-Giuliano-Antoniol/dp/3642140663)
-Artigo científico: "The Effectiveness of Mutation Testing: An Experimental Assessment" de Gregg Rothermel e Mary Jean Harrold (https://ieeexplore.ieee.org/document/994011)
-Objetivo de aprendizagem: Compreender a importância dos mutantes e como aplicá-los em testes automatizados (Aplicar)
-Tema 9: Design de código para testabilidade
-
-Referências:
-Curso online: "Code Quality: Design for Testability" da Pluralsight (https://www.pluralsight.com/courses/code-quality-design-for-testability)
-Livro: "Working Effectively with Legacy Code" de Michael Feathers (https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052)
-Objetivo de aprendizagem: Compreender como projetar códigos para testabilidade (Aplicar)
-Lista de palavras-chave:
-testes automatizados, testes de limites, testes baseados em especificação, testes baseados em propriedade, testes de estado, pirâmide de testes, testes de unidade, testes de integração, testes de aceitação, mutantes, design de código para testabilidade.
+6.  Lista de palavras-chave considerando todos os conceitos que são abordados no plano: testes automatizados, pirâmide de testes, testes unitários, testes de integração, testes de ponta a ponta, testes de aceitação do usuário, análise, síntese, estratégia, qualidade de software.
+    
+7.  Descrição de 5 exercícios que permitem a pessoa treinar o que ela estudou:
+    
+8.  Criar uma estratégia de testes automatizados para um projeto de software, considerando a pirâmide de testes e os diferentes tipos de testes.
+    
+9.  Escrever testes unitários para uma função simples em uma linguagem de programação escolhida.
+    
+10.  Criar testes de integração para uma aplicação web utilizando uma ferramenta de automação de testes, como Selenium.
+    
+11.  Escrever testes de ponta a ponta para uma funcionalidade específica de uma aplicação, utilizando uma ferramenta de automação de testes, como Cypress.
+    
+12.  Escrever cenários de teste de aceitação do usuário utilizando a técnica de especificação por exemplo e a ferramenta Cucumber, para uma funcionalidade da aplicação.
