@@ -1,4 +1,3 @@
-
 ## Como usar este plano?
 
 Este plano foi gerado pelo Chat GPT em função de uma entrada calibrada pelo time da Zup Edu. Por conta do treinamento do modelo, algumas(ou muitas) vezes os títulos das referências para leitura parecem reais, mas na verdade não são. Chega a ser impressionante. 
