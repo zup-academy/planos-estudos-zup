@@ -9,7 +9,7 @@ Para facilitar, segue uma lista de temas que precisam ser abordados no plano: co
 3. Pre requisitos necessários para ela seguir o plano
 4. Lista de objetivos de aprendizagem conectados com o nível 3 da taxonomia de bloom que se conecte com o objetivo de aprendizagem geral
 5. Lista de temas que serão abordados no plano ordenados por uma sequência lógica de consumo. Para cada tema do plano, é importante que tenha um conjunto de referências, de novo 
-ordenado de maneira lógica que possam ser seguidos para consumo daquela referência. Também é obrigatório que seja descrito o objetivo de aprendizagem específico relacionado ao tópico baseado no nível 3 da taxonomia de bloom. Este conjunto de referências para o tema deve ser composto por dois cursos online, dois livros e um paper ordenados pela facilidade de consumo. Cada referência deve vir com o link que pode ser seguido.
+ordenado de maneira lógica que possam ser seguidos para consumo daquela referência. Também é obrigatório que seja descrito o objetivo de aprendizagem específico relacionado ao tópico baseado no nível 3 da taxonomia de bloom. O conjunto de referências para o tema deve ser composto apenas por livros. 
 6. Lista de palavras chave considerando todos os conceitos que são abordados no plano.
-7. Três ideias, com descrições, para construções de grandes sistemas que podem ser construídos a partir da ideia de microservices. 
+7. Descreva 5 ou mais exercícios que permitem a pessoa treinar o que ela estudou. A ideia é que os exercícios combinem os temas do estudo, aproximando o treino do mundo real. 
 
