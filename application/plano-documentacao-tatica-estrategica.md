@@ -1,45 +1,65 @@
-Claro, segue abaixo o plano com as referências e seus respectivos links:
+1.  Descrição do motivo que explica a importância do plano: Com a crescente demanda de profissionais da área de tecnologia, é essencial que as equipes trabalhem de maneira eficiente e produtiva. A documentação de software é uma das ferramentas mais importantes para garantir que todos os membros da equipe possam entender o projeto como um todo, além de ser essencial para manutenção e escalabilidade do software. Este plano de estudos visa capacitar a pessoa a escrever documentações de software que facilitem a comunicação dentro da equipe e permitam que outros membros da equipe compreendam o software como um todo.
+    
+2.  Objetivo de aprendizagem: Ao final deste plano de estudos, a pessoa será capaz de escrever documentações de software que facilitem a comunicação dentro da equipe e permitam que outros membros da equipe compreendam o software como um todo, conectando-se com o nível 3 da taxonomia de Bloom.
+    
+3.  Pré-requisitos: Para seguir este plano de estudos, é necessário que a pessoa tenha conhecimentos básicos em programação e habilidades de escrita em português.
+    
+4.  Lista de objetivos de aprendizagem conectados com o nível 3 da taxonomia de bloom:
+    
 
-Descrição do motivo que explica a importância do plano:
-Documentar software é uma parte fundamental do processo de desenvolvimento de software. A documentação é a forma como os desenvolvedores comunicam suas ideias e conceitos para outras pessoas que trabalham no projeto. Uma boa documentação de software é essencial para garantir a comunicação efetiva entre os membros da equipe e também para ajudar a garantir a qualidade do software produzido.
+*   Escrever documentações claras e concisas para o software.
+*   Identificar e documentar os requisitos do software.
+*   Documentar o design do software.
+*   Documentar a arquitetura do software.
+*   Documentar o processo de desenvolvimento do software.
+*   Documentar as técnicas de teste e depuração do software.
+*   Documentar o uso do software e as instruções de instalação.
 
-Objetivo de aprendizagem conectado com nível 3 da taxonomia de bloom:
-Ao final deste plano, a pessoa deverá ser capaz de escrever documentações de software que facilitem a comunicação dentro da equipe e permitam que outros membros da equipe compreendam o software como um todo. Isso envolve a aplicação do conhecimento e a habilidade de analisar, sintetizar e avaliar as informações, que são habilidades de nível 3 da taxonomia de bloom.
+5.  Lista de temas que serão abordados no plano ordenados por uma sequência lógica de consumo: Tema 1: Introdução à documentação de software
 
-Pré-requisitos necessários para seguir o plano:
-Conhecimento básico de programação e conhecimento de ferramentas básicas de documentação de software, como Markdown.
+*   Referência: "Documenting Software Architectures: Views and Beyond" de Paul Clements, Felix Bachmann, Len Bass, David Garlan, James Ivers, Reed Little, Paulo Merson, Robert Nord, and Judith Stafford
+*   Objetivo de aprendizagem específico: Compreender a importância da documentação de software para a comunicação dentro da equipe.
 
-Lista de objetivos de aprendizagem conectados com o nível 3 da taxonomia de bloom que se conecte com o objetivo de aprendizagem geral:
+Tema 2: Documentando requisitos do software
 
-Analisar a documentação existente e identificar áreas que precisam ser melhoradas;
-Sintetizar informações técnicas e explicá-las de forma clara e concisa para os usuários finais;
-Avaliar a qualidade da documentação existente e identificar áreas que precisam ser melhoradas.
-Lista de temas que serão abordados no plano ordenados por uma sequência lógica de consumo, com objetivos de aprendizagem específicos e referências:
-a) Documentação tática - Esta seção abordará a documentação tática, que descreve como o software funciona. O objetivo é ajudar a equipe a entender como o software funciona. O objetivo de aprendizagem é "Explicar o funcionamento do software em termos técnicos para a equipe de desenvolvimento".
-Cursos online:
-Writing Better Technical Reports, Lynda.com (https://www.lynda.com/Business-Skills-tutorials/Writing-Better-Technical-Reports/2812389-2.html)
-Technical Writing: Documentation on Software Projects, Udemy (https://www.udemy.com/course/technical-writing-documentation-on-software-projects/)
-Livros:
-The Art of Explanation: Making your Ideas, Products and Services Easier to Understand, by Lee Lefever (https://www.amazon.com/Art-Explanation-Making-Products-Understand/dp/1118374584/)
-Writing Software Documentation: A Task-Oriented Approach, by Thomas Barker (https://www.amazon.com/Writing-Software-Documentation-Task-Oriented-Approach/dp/1119071276/)
-Paper:
-Documenting Software Architectures: Views and Beyond, by Paul Clements, Felix Bachmann, Len Bass, David Garlan, James Ivers, Reed Little, Paulo Merson, Robert Nord, and Judith Stafford (https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=5150)
-b) Documentação estratégica - Esta seção abordará a documentação estratégica, que descreve como o software se encaixa em um contexto mais amplo. O objetivo é ajud
+*   Referência: "Writing Effective Use Cases" de Alistair Cockburn
+*   Objetivo de aprendizagem específico: Identificar e documentar os requisitos do software de maneira clara e objetiva.
 
+Tema 3: Documentando o design do software
 
+*   Referência: "UML Distilled: A Brief Guide to the Standard Object Modeling Language" de Martin Fowler
+*   Objetivo de aprendizagem específico: Documentar o design do software utilizando a linguagem UML.
 
+Tema 4: Documentando a arquitetura do software
 
-Alberto SOUZA
-continua
-a equipe a entender como o software se encaixa no ambiente em que está sendo usado. O objetivo de aprendizagem é "Descrever como o software se encaixa no ambiente em que está sendo usado".
+*   Referência: "Documenting Software Architectures: Views and Beyond" de Paul Clements, Felix Bachmann, Len Bass, David Garlan, James Ivers, Reed Little, Paulo Merson, Robert Nord, and Judith Stafford
+*   Objetivo de aprendizagem específico: Documentar a arquitetura do software utilizando diferentes pontos de vista.
 
-Cursos online:
-How to Write an Effective Business Plan, Udemy (https://www.udemy.com/course/how-to-write-an-effective-business-plan/)
-Technical Writing: Master Your Writing Career, Udemy (https://www.udemy.com/course/technical-writing-master-your-writing-career/)
-Livros:
-Writing Effective Use Cases, by Alistair Cockburn (https://www.amazon.com/Writing-Effective-Cases-Alistair-Cockburn/dp/0201702258/)
-Agile Estimating and Planning, by Mike Cohn (https://www.amazon.com/Agile-Estimating-Planning-Mike-Cohn/dp/0131479415/)
-Paper:
-Patterns of Enterprise Application Architecture, by Martin Fowler (https://martinfowler.com/books/eaa.html)
-Lista de palavras chave:
-Documentação de software
+Tema 5: Documentando o processo de desenvolvimento do software
+
+*   Referência: "Software Requirements and Estimation" de Swapna Kishore e Rajesh Naik
+*   Objetivo de aprendizagem específico: Documentar o processo de desenvolvimento do software, incluindo as metodologias utilizadas.
+
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e)![Alberto SOUZA](/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAEdFTp54tSlfFS-8gBnA9N2_VrPAGaLfkaBkj64fqQXqaQ%3Ds96-c&w=64&q=75)
+
+Tema 6: Documentando o uso do software e instruções de instalação
+
+*   Referência: "Documenting APIs: A guide for technical writers and engineers" de Kirsten Hunter
+*   Objetivo de aprendizagem específico: Documentar o uso do software e as instruções de instalação para facilitar a adoção do software.
+
+6.  Lista de palavras chave:
+
+*   Documentação de software
+*   Requisitos
+*   Design
+*   Arquitetura
+*   Processo de desenvolvimento
+*   Teste e depuração
+*   Uso e instalação
+
+7.  Exercícios:
+8.  Escreva um documento de requisitos de um software que você desenvolveria para resolver um problema real.
+9.  Documente o design do software utilizando a linguagem UML.
+10.  Escreva um documento de arquitetura de software utilizando diferentes pontos de vista.
+11.  Documente o processo de desenvolvimento do software utilizando uma metodologia de sua escolha.
+12.  Escreva um manual de uso do software e as instruções de instalação.

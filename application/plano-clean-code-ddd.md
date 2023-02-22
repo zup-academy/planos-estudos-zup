@@ -24,6 +24,7 @@ O aluno deve ter conhecimento básico de programação orientada a objetos e ter
     
 
 *   Livro: "Clean Code: A Handbook of Agile Software Craftsmanship" de Robert C. Martin
+*   Livro: "Domain Driven Design" de Eric Evans
 *   Objetivos de aprendizagem: Analisar os princípios do Clean Code e DDD e aplicá-los em projetos de software.
 
 2.  Arquitetura baseada em DDD

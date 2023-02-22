@@ -1,70 +1,69 @@
-Preciso construir um plano de estudos considerando o nível 3 da taxonomia de bloom que habilite pessoas a escrevem sistemas que tenham requisitos de performance muito exigentes. Considere tanto sistemas monolíticos quanto sistemas distribuídos. 
+1.  Descrição do motivo que explica a importância do plano: A performance e a escalabilidade são fatores críticos de sucesso em aplicações modernas. Uma aplicação lenta e que não escala bem pode prejudicar a experiência do usuário, resultando em baixa adoção e perda de clientes. Por isso, é importante que desenvolvedores saibam como escrever aplicações que atendam aos requisitos de performance e escalabilidade.
+    
+2.  Objetivo de aprendizagem: Ao seguir este plano, a pessoa será capaz de escrever aplicações que atendam a requisitos exigentes de performance e escalabilidade, aplicando conceitos avançados de programação.
+    
+3.  Pré-requisitos necessários: Este plano é voltado para desenvolvedores com conhecimento prévio em programação e que já tenham experiência em desenvolvimento de software. É recomendado que a pessoa tenha conhecimento em algoritmos, estruturas de dados e orientação a objetos.
+    
+4.  Lista de objetivos de aprendizagem:
+    
 
-A pessoa que vai seguir este plano já deve se sentir confortável desenvolvendo sistemas web com uma ou mais stacks de tecnologias.
+*   Compreender os fundamentos de arquitetura de software para aplicações de alta performance e escalabilidade.
+*   Conhecer técnicas para otimização de código e redução de gargalos.
+*   Entender como trabalhar com sistemas distribuídos e paralelismo.
+*   Saber como lidar com grandes volumes de dados.
+*   Aprender técnicas de caching e memória distribuída.
 
-É obrigatório que este plano siga a seguinte estrutura. 
+5.  Lista de temas e referências:
+6.  Introdução à arquitetura de software para aplicações de alta performance
 
-1. Descrição do motivo que explica a importância do plano
-2. Um objetivo de aprendizagem conectado com nível 3 da taxonomia de bloom que deixe claro onde a pessoa pode chegar caso ela siga o plano.
-3. Pre requisitos necessários para ela seguir o plano
-4. Lista de objetivos de aprendizagem conectados com o nível 3 da taxonomia de bloom que se conecte com o objetivo de aprendizagem geral
-5. Lista de temas que serão abordados no plano ordenados por uma sequência lógica de consumo. Para cada tema do plano, é importante que tenha um conjunto de referências, de novo 
-ordenado de maneira lógica que possam ser seguidos para consumo daquela referência. Também é obrigatório que seja descrito o objetivo de aprendizagem específico relacionado ao tópico baseado no nível 3 da taxonomia de bloom. O conjunto de referências para o tema deve ser composto apenas por livros. 
-6. Lista de palavras chave considerando todos os conceitos que são abordados no plano.
-7. dê um direcionamento para exercícios. 
+*   High Performance MySQL: Optimization, Backups, and Replication, by Baron Schwartz, Peter Zaitsev, and Vadim Tkachenko
+*   The Art of Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise, by Martin L. Abbott and Michael T. Fisher
+*   Objetivo de aprendizagem: Compreender os conceitos de arquitetura de software para aplicações de alta performance e escalabilidade.
 
-Descrição do motivo que explica a importância do plano:
-Com a crescente demanda por sistemas de alta performance, é fundamental que os desenvolvedores estejam capacitados para escrever sistemas que atendam a esses requisitos. Por isso, este plano de estudos foi criado para preparar as pessoas para desenvolver sistemas monolíticos e distribuídos com requisitos de performance muito exigentes.
+2.  Otimização de código e redução de gargalos
 
-Objetivo de aprendizagem conectado com nível 3 da taxonomia de bloom que deixe claro onde a pessoa pode chegar caso ela siga o plano:
-Ao final deste plano de estudos, a pessoa será capaz de projetar e implementar sistemas monolíticos e distribuídos com requisitos de performance muito exigentes, aplicando os princípios de arquitetura, design e programação adequados.
+*   Writing High-Performance .NET Code, by Ben Watson
+*   High Performance Browser Networking, by Ilya Grigorik
+*   Objetivo de aprendizagem: Conhecer técnicas para otimização de código e redução de gargalos.
 
-Pré-requisitos necessários para ela seguir o plano:
-A pessoa deve ter conhecimento em desenvolvimento de sistemas web com uma ou mais stacks de tecnologias, além de conceitos básicos de programação, arquitetura e design de software.
+3.  Sistemas distribuídos e paralelismo
 
-Lista de objetivos de aprendizagem conectados com o nível 3 da taxonomia de bloom que se conecte com o objetivo de aprendizagem geral:
+*   Distributed Systems: Principles and Paradigms, by Andrew S. Tanenbaum and Maarten Van Steen
+*   Designing Data-Intensive Applications, by Martin Kleppmann
+*   Objetivo de aprendizagem: Entender como trabalhar com sistemas distribuídos e paralelismo.
 
-Analisar os requisitos de performance e definir as métricas adequadas (análise)
-Selecionar a arquitetura apropriada para sistemas de alta performance (análise)
-Projetar a arquitetura para garantir alta performance (síntese)
-Implementar soluções eficientes para as principais áreas que impactam a performance (aplicação)
-Otimizar sistemas existentes para melhorar a performance (análise e síntese)
-Lista de temas que serão abordados no plano ordenados por uma sequência lógica de consumo:
-Tema 1: Requisitos de Performance
-Referências: "The Art of Capacity Planning" (John Allspaw) e "Web Operations: Keeping the Data on Time" (John Allspaw e Jesse Robbins)
-Objetivo de aprendizagem: Analisar os requisitos de performance e definir as métricas adequadas
-Tema 2: Arquitetura para Alta Performance
+4.  Lidando com grandes volumes de dados
 
-Referências: "Building Microservices" (Sam Newman) e "Scalability Rules: 50 Principles for Scaling Web Sites" (Martin L. Abbott e Michael T. Fisher)
-Objetivo de aprendizagem: Selecionar a arquitetura apropriada para sistemas de alta performance
-Tema 3: Design de Sistemas de Alta Performance
+*   Big Data: Principles and Best Practices of Scalable Realtime Data Systems, by Nathan Marz and James Warren
+*   The Data Warehouse Toolkit: The Definitive Guide to Dimensional Modeling, by Ralph Kimball and Margy Ross
+*   Objetivo de aprendizagem: Saber como lidar com grandes volumes de dados.
 
-Referências: "High Performance Web Sites: Essential Knowledge for Front-End Engineers" (Steve Souders) e "The Performance of Open Source Applications" (ed. by Tavish Armstrong)
-Objetivo de aprendizagem: Projetar a arquitetura para garantir alta performance
-Tema 4: Programação para Alta Performance
+5.  Caching e memória distribuída
 
-Referências: "Optimizing Java" (Benjamin J. Evans e James Gough) e "High Performance MySQL: Optimization, Backups, and Replication" (Baron Schwartz, Peter Zaitsev e Vadim Tkachenko)
-Objetivo de aprendizagem: Implementar soluções eficientes para as principais áreas que impactam a performance
-Tema 5: Otimização de Sistemas
+*   Web Caching: Reducing Network Traffic, by Duane Wessels
+*   Foundations of Scalable Systems, by Ian Gorton
+*   Objetivo de aprendizagem: Aprender técnicas de caching e memória distribuída.
 
-Referências: "Systems Performance: Enterprise and the Cloud" (Brendan Gregg e "The Art of Computer Systems Performance Analysis" (Raj Jain)
+6.  Lista de palavras
 
-Objetivo de aprendizagem: Otimizar sistemas existentes para melhorar a performance
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e)![Alberto SOUZA](/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAEdFTp54tSlfFS-8gBnA9N2_VrPAGaLfkaBkj64fqQXqaQ%3Ds96-c&w=64&q=75)
 
-Lista de palavras chave considerando todos os conceitos que são abordados no plano:
+continua
 
-Requisitos de performance, arquitetura, design, programação, otimização, sistemas, escalabilidade, microservices, front-end, back-end, análise, síntese, métricas, Java, MySQL, cloud, enterprise.
+*   Performance
+*   Escalabilidade
+*   Arquitetura de software
+*   Otimização de código
+*   Gargalos
+*   Sistemas distribuídos
+*   Paralelismo
+*   Grandes volumes de dados
+*   Caching
+*   Memória distribuída
 
-Direcionamento para exercícios:
-
-Criar um projeto de sistemas distribuídos que atenda a requisitos de performance muito exigentes, selecionando a arquitetura e implementando soluções eficientes.
-Otimizar um sistema existente para melhorar a performance, utilizando ferramentas e técnicas adequadas.
-Analisar os requisitos de performance de um sistema web e definir as métricas adequadas para avaliação.
-Projetar a arquitetura para garantir alta performance em um sistema web, considerando escalabilidade e microservices.
-Implementar soluções eficientes para melhorar a performance de uma aplicação front-end ou back-end, utilizando técnicas de programação adequadas.
-
-Realizar testes de performance em um sistema web e identificar gargalos e possíveis melhorias de performance.
-Escrever códigos otimizados em Java ou em outra linguagem de programação para melhorar a performance de um sistema.
-Identificar os principais desafios de performance em ambientes de cloud e aplicar técnicas adequadas para garantir alta performance.
-Realizar análises de sistemas e identificar possíveis oportunidades de otimização de performance em ambientes empresariais.
-Desenvolver habilidades em monitoramento e análise de sistemas para avaliar a performance de sistemas web e identificar oportunidades de otimização.
+7.  Exercícios:
+8.  Desenvolver uma aplicação web que lida com grandes volumes de dados, utilizando técnicas de caching para melhorar a performance.
+9.  Implementar um sistema distribuído para processamento de dados, utilizando técnicas de paralelismo para melhorar a escalabilidade.
+10.  Otimizar o código de uma aplicação existente, identificando e corrigindo gargalos de performance.
+11.  Implementar um algoritmo de processamento de dados em tempo real, utilizando técnicas de memória distribuída para melhorar a performance.
+12.  Desenvolver um sistema de streaming de dados em tempo real, utilizando técnicas de sistemas distribuídos para melhorar a escalabilidade.

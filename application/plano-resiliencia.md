@@ -1,77 +1,64 @@
-Descrição do motivo que explica a importância do plano:
-A construção de sistemas resilientes é fundamental para garantir a confiabilidade, disponibilidade e capacidade de resposta dos sistemas, especialmente em ambientes críticos. Isso é especialmente importante em sistemas distribuídos, onde as falhas em um componente podem afetar todo o sistema. Este plano de estudos tem como objetivo ajudar desenvolvedores a melhorar suas habilidades na construção de sistemas resilientes, com foco em sistemas distribuídos e monolíticos.
+1.  Descrição do motivo que explica a importância do plano: A criação de sistemas distribuídos é cada vez mais comum, principalmente em ambientes em nuvem, em que os recursos são divididos em múltiplos servidores para melhorar a escalabilidade e a disponibilidade. No entanto, garantir a resiliência desses sistemas é um grande desafio, pois eles podem ser afetados por uma variedade de problemas, como falhas de rede, falhas de hardware, problemas de configuração, erros de software e ataques maliciosos. Por isso, é fundamental que os profissionais que trabalham com sistemas distribuídos saibam como projetar e implementar sistemas que sejam resistentes a esses problemas.
+    
+2.  Objetivo de aprendizagem conectado com nível 3 da taxonomia de bloom: Ao final deste plano, o estudante será capaz de analisar, sintetizar e avaliar estratégias para tornar sistemas distribuídos resilientes a diferentes tipos de falhas e ataques.
+    
+3.  Pré-requisitos necessários para seguir o plano:
+    
 
-Objetivo de aprendizagem conectado com nível 3 da taxonomia de bloom:
-Ao final deste plano de estudos, o participante será capaz de analisar, avaliar e aplicar técnicas e práticas para construir sistemas resilientes em ambientes distribuídos e monolíticos.
+*   Conhecimento em programação em pelo menos uma linguagem de programação.
+*   Familiaridade com os conceitos básicos de redes de computadores, como protocolos de comunicação, endereçamento IP e roteamento.
+*   Conhecimento básico de arquiteturas de software, como SOA (Arquitetura Orientada a Serviços) e microsserviços.
+*   Familiaridade com sistemas operacionais e ambientes em nuvem, como Amazon Web Services (AWS) ou Microsoft Azure.
 
-Pré-requisitos necessários para seguir o plano:
-Para seguir este plano de estudos, é necessário que o participante já possua conhecimentos prévios sobre desenvolvimento de sistemas distribuídos e monolíticos, além de familiaridade com linguagens de programação e arquitetura de sistemas.
+4.  Lista de objetivos de aprendizagem conectados com o nível 3 da taxonomia de bloom que se conecte com o objetivo de aprendizagem geral:
 
-Lista de objetivos de aprendizagem conectados com o nível 3 da taxonomia de bloom:
+*   Analisar as diferentes formas de falhas e ataques que podem afetar sistemas distribuídos e avaliar suas consequências.
+*   Sintetizar estratégias para garantir a resiliência de sistemas distribuídos, como redundância, replicação de dados e balanceamento de carga.
+*   Avaliar o desempenho de sistemas distribuídos sob diferentes condições de falhas e ataques.
+*   Projetar sistemas distribuídos com alta disponibilidade e resiliência, considerando as necessidades de negócios e as restrições técnicas.
+*   Implementar sistemas distribuídos resilientes usando tecnologias como Kubernetes, Docker, Apache Cassandra, Apache Kafka, Redis e outras.
 
-Analisar e avaliar os requisitos de resiliência em sistemas distribuídos e monolíticos
-Identificar e aplicar técnicas e práticas de tolerância a falhas
-Avaliar e aplicar técnicas e práticas de monitoramento e recuperação de falhas em tempo real
-Analisar e avaliar técnicas e práticas de balanceamento de carga em sistemas distribuídos e monolíticos
-Aplicar técnicas de testes de resiliência em sistemas distribuídos e monolíticos
-Lista de temas que serão abordados no plano:
-a. Introdução a resiliência em sistemas distribuídos e monolíticos
-Objetivo de aprendizagem: Compreender os conceitos básicos de resiliência em sistemas distribuídos e monolíticos
-Referências:
-"Building Microservices: Designing Fine-Grained Systems" - Sam Newman
-"Building Resilient Systems: Patterns and Practices for High Availability" - Chris O'Hara and Kathleen Yang
-"The Practice of Cloud System Administration: Designing and Operating Large Distributed Systems" - Thomas A. Limoncelli, Strata R. Chalup, and Christina J. Hogan
-b. Tolerância a falhas em sistemas distribuídos e monolíticos
+5.  Lista de temas que serão abordados no plano ordenados por uma sequência lógica de consumo, com objetivos de aprendizagem específicos relacionados ao nível 3 da taxonomia de bloom e referências:
 
-Objetivo de aprendizagem: Identificar e aplicar técnicas e práticas de tolerância a falhas em sistemas distribuídos e monolíticos
-Referências:
-"Release It!: Design and Deploy Production-Ready Software" - Michael T. Nygard
-"Building Reliable Distributed Systems: A Fault-Tolerant Approach" - Ken Birman
-"Fault-Tolerant Systems" - Israel Koren and C. Mani Krishna
-c. Monitoramento e recuperação de falhas em tempo real em sistemas distribuídos e monolíticos
+*   Introdução aos sistemas distribuídos resilientes: analisar as necessidades de negócios para sistemas resilientes, identificar os principais tipos de falhas e ataques, avaliar as consequências de uma falha ou ataque em um sistema distribuído. Referências: "Distributed Systems for Fun and Profit" de Mikito Takada.
+    
+*   Redundância e replicação: sintetizar estratégias para garantir a disponibilidade de sistemas distribuídos, como redundância e replicação de dados, avaliar o desempenho de sistemas distribuídos sob diferentes condições de falhas e ataques. Referências: "Designing Distributed Systems: Patterns and Paradigms for Scalable, Reliable Services" de Brendan Burns, "The Art of
+    
 
-Objetivo de aprendizagem: Avaliar e aplicar técnicas e práticas de monitoramento e recuperação de falhas em tempo real em sistemas distribuídos e monolíticos
-Referências:
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e)![Alberto SOUZA](/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAEdFTp54tSlfFS-8gBnA9N2_VrPAGaLfkaBkj64fqQXqaQ%3Ds96-c&w=64&q=75)
 
-
-
-Alberto SOUZA
 continua
-"Site Reliability Engineering: How Google Runs Production Systems" - Betsy Beyer et al.
-"Distributed Systems Observability" - Cindy Sridharan
-"The Art of Monitoring" - James Turnbull
-d. Balanceamento de carga em sistemas distribuídos e monolíticos
 
-Objetivo de aprendizagem: Analisar e avaliar técnicas e práticas de balanceamento de carga em sistemas distribuídos e monolíticos
-Referências:
-"Cloud Native Infrastructure: Patterns for Scalable Infrastructure and Applications in a Dynamic Environment" - Justin Garrison and Kris Nova
-"High Performance Browser Networking" - Ilya Grigorik
-"Scalability Rules: 50 Principles for Scaling Web Sites" - Martin L. Abbott and Michael T. Fisher
-e. Testes de resiliência em sistemas distribuídos e monolíticos
+Scalability: Scalable Web Architecture, Processes, and Organizations for the Modern Enterprise" de Martin L. Abbott e Michael T. Fisher.
 
-Objetivo de aprendizagem: Aplicar técnicas de testes de resiliência em sistemas distribuídos e monolíticos
-Referências:
-"Chaos Engineering: System Resiliency in Practice" - Casey Rosenthal and Nora Jones
-"Testing Distributed Systems" - Justina Petraityte and Giedrius Ramas
-"The Art of Unit Testing: With Examples in C#" - Roy Osherove
-Lista de palavras chave:
-Resiliência
-Sistemas distribuídos
-Sistemas monolíticos
-Tolerância a falhas
-Monitoramento em tempo real
-Recuperação de falhas
-Balanceamento de carga
-Testes de resiliência
-Fault tolerance
-High availability
-Scalability
-Microservices
-Chaos engineering
-Site reliability engineering
-Lista de 5 exercícios para deixar determinada funcionalidade mais resiliente:
-Implementar um mecanismo de fallback para acessos a recursos externos, como banco de dados ou API de terceiros, em caso de indisponibilidade.
-Utilizar um mecanismo de replicação de dados para garantir que as informações estejam disponíveis mesmo em caso de falhas em um dos nós do sistema.
-Implementar testes de resiliência que simulem falhas em componentes do sistema, como o banco de dados, e avaliar o comportamento do sistema em situações de estresse.
-Utilizar um sistema de monitoramento em tempo real para identificar rapidamente falhas e permitir uma recuperação mais eficiente.
-Implementar um sistema de balanceamento de carga para garantir que a carga de trabalho seja distribuída de forma equilibrada entre os diferentes componentes do sistema.
+*   Balanceamento de carga: avaliar diferentes estratégias de balanceamento de carga para sistemas distribuídos, como Round-Robin, Least-Connections, IP Hashing e outros, projetar sistemas distribuídos com balanceamento de carga eficiente. Referências: "Load Balancing with HAProxy" de Nick Ramirez, "The Load Balancer" de Floyd Smith.
+    
+*   Tolerância a falhas: analisar diferentes tipos de tolerância a falhas, como replicação passiva e ativa, codificação de erros e máquinas de estados, avaliar o desempenho e a escalabilidade de sistemas distribuídos tolerantes a falhas. Referências: "Fault-Tolerant Systems" de Israel Koren, "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems" de Martin Kleppmann.
+    
+*   Detecção e recuperação de falhas: sintetizar estratégias para detecção e recuperação de falhas, como monitoramento de sistemas distribuídos, detecção de anomalias, restauração de serviços e rollback de transações. Referências: "Building Microservices: Designing Fine-Grained Systems" de Sam Newman, "Release It!: Design and Deploy Production-Ready Software" de Michael T. Nygard.
+    
+*   Segurança em sistemas distribuídos: avaliar diferentes tipos de ataques em sistemas distribuídos, como DDoS, injeção de SQL e XSS, identificar as vulnerabilidades comuns em sistemas distribuídos, sintetizar estratégias para proteger sistemas distribuídos contra ataques. Referências: "The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws" de Dafydd Stuttard e Marcus Pinto, "Securing DevOps: Security in the Cloud" de Julien Vehent.
+    
+
+6.  Lista de palavras-chave considerando todos os conceitos que são abordados no plano: Sistemas distribuídos, resiliência, redundância, replicação, balanceamento de carga, tolerância a falhas, detecção e recuperação de falhas, segurança, monitoramento, microserviços, arquitetura orientada a serviços, Kubernetes, Docker, Cassandra, Kafka, Redis.
+    
+7.  Descrição de 5 ou mais exercícios que permitem a pessoa treinar o que ela estudou:
+    
+8.  Projete um sistema distribuído resiliente que possa tolerar a falha de um servidor e garantir a disponibilidade contínua dos serviços. Use Kubernetes para implementar o sistema distribuído.
+    
+9.  Realize um teste de carga em um sistema distribuído com balanceamento de carga e avalie o desempenho sob diferentes condições de carga. Use Apache Cassandra para armazenar dados distribuídos e Apache Kafka para processamento de eventos em tempo real.
+    
+10.  Implemente um sistema distribuído com replicação de dados em que a replicação é ativada automaticamente quando ocorre uma falha. Use Redis como banco de dados distribuído e Spring Cloud para implementação de microsserviços.
+    
+11.  Avalie a segurança de um sistema distribuído em um ambiente de nuvem usando ferramentas de análise de vulnerabilidade. Use Amazon Web Services (AWS) como ambiente em nuvem e Jenkins para implantação contínua de aplicativos.
+    
+12.  Implemente um sistema distribuído
+    
+
+![](data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%2730%27%20height=%2730%27/%3e)![Alberto SOUZA](/_next/image?url=https%3A%2F%2Flh3.googleusercontent.com%2Fa%2FAEdFTp54tSlfFS-8gBnA9N2_VrPAGaLfkaBkj64fqQXqaQ%3Ds96-c&w=64&q=75)
+
+continua
+
+com tolerância a falhas em que os serviços podem ser recuperados automaticamente após uma falha. Use o Apache ZooKeeper para gerenciamento de configuração e o Spring Boot para implementação de microsserviços.
+
+Esses exercícios combinam vários conceitos abordados no plano, permitindo que os alunos treinem habilidades práticas de projeto, implementação, teste e análise de sistemas distribuídos resilientes em um ambiente de nuvem. Eles também aproximam o treinamento do mundo real, pois envolvem ferramentas e tecnologias usadas comumente em ambientes de produção.
