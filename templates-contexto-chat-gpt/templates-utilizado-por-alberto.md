@@ -1,6 +1,4 @@
-Preciso construir um plano de estudos considerando o nível 3 da taxonomia de bloom que habilite pessoas a escrevem sistemas disitribuidos baseados em arquitetura de microserviços.
-
-Para facilitar, segue uma lista de temas que precisam ser abordados no plano: contextos delimitados para microservicos, isolamento entre serviços, estratégias de comunicação entre serviços, estratégias para transações em sistemas distribuídos.
+Preciso construir um plano de estudos considerando o nível 3 da taxonomia de bloom que habilite pessoas [descreva seu objetivo de aprendizagem aqui. Pode detalhar, mas cuidado para não especificar demais Ex: a escrevem sistemas disitribuidos baseados em arquitetura de microserviços.]
 
 É obrigatório que este plano siga a seguinte estrutura. 
 
