@@ -25,8 +25,15 @@ Ao finalizar esse plano de estudos, o estudante será capaz de importar ou criar
    
 5. Lista de temas que serão abordados no plano, com referências e objetivos de aprendizagem específicos:
 
+- Visão Geral
+  - Objetivo de aprendizagem: Conhecer ára que serve a STK CLI
+  - Referências: [Visão Geral | Docs StackSpot](https://docs.stackspot.com/docs/stk-cli/overview/)
 
-6. Lista de palavras chave considerando todos os conceitos que são abordados no plano.
+- Instalação
+  - Objetivo de aprendizagem: Instalar e configurar a STK CLI
+  - Referências: [Instalar]()
+
+1. Lista de palavras chave considerando todos os conceitos que são abordados no plano.
 
 STK, STK CLI, StackSpot CLI, stk, stack, plugin, template, tasks, hooks
 
