@@ -31,7 +31,7 @@ e) Cria a cultura do preparo: "The role of deliberate practice in the acquisitio
 
 ```json
 {
-  "titulo": "Plano de Estudos para Desenvolvimento de Liderança",
+  "titulo": "Plano de Estudos para Desenvolvimento de Liderança de uma pessoa que nunca desejou ser líder de gente",
   "motivacao": "Liderar é uma atividade de fato muito complexa. Você não consegue mais fazer tudo que é necessário e precisa caminhar junto com outras pessoas para chegar onde quer. Só que neste caminho é necessário entregar valor, ter um ambiente saudavel para a mente e que propicie desenvolvimento para as pessoas. A liderança precisa ser um agente catalisadora na vida de quem está ali por perto. Como fazer isso? Este plano de estudos criado por Alberto Souza vai tentar mostrar o que o influenciou nessa caminhada. PS: Importante deixar registrado que este plano não tem a pretensão de dizer o jeito certo de liderar. Só traz a visão de uma pessoa.",
   "objetivo": "Considerando que você vai de fato consumir a literatura sugerida, existe boas chances de você conseguir exercer uma liderança que é bem pautada por objetivos, com o nível necessário de sensibilidade para lidar com as questões de cada pessoa do seu time e também construir um ambiente onde as pessoas se sintam cada vez mais capazes.",
   "preRequisitos": [
@@ -53,7 +53,7 @@ e) Cria a cultura do preparo: "The role of deliberate practice in the acquisitio
           "url": "https://www-2.rotman.utoronto.ca/facbios/file/09%20-%20Locke%20&%20Latham%202002%20AP.pdf"
         }
       ],
-      "objetivoAprendizagem": [
+      "habilidades": [
         "Construir uma liderança pautada por objetivos cada vez mais desafiadores."
       ]
     },
@@ -69,7 +69,7 @@ e) Cria a cultura do preparo: "The role of deliberate practice in the acquisitio
           "url": "https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf"
         }
       ],
-      "objetivoAprendizagem": [
+      "habilidades": [
         "Conseguir construir um ambiente onde as pessoas de fato percebam que são importantes para o contexto, liderança, colegas etc."
       ]
     },
@@ -97,7 +97,7 @@ e) Cria a cultura do preparo: "The role of deliberate practice in the acquisitio
           "url": "https://www.mindtools.com/ay86376/the-situation-behavior-impact-feedback-tool"
         }
       ],
-      "objetivoAprendizagem": [
+      "habilidades": [
         "Entender que dar feedback é uma atividade que pode ser estressante, porém necessária.",
         "Oferecer feedbacks que de fato facilitem mudança de comportamento."
       ]
@@ -107,14 +107,14 @@ e) Cria a cultura do preparo: "The role of deliberate practice in the acquisitio
       "referencias": [
         {
           "titulo": "Self-efficacy: Toward a Unifying Theory of Behavioral Change",
-          "url": "https://d1wqtxts1xzle7.cloudfront.net/55330532/Bandura1977_SelfEfficacy_for_Behavioral_Change-libre.pdf?1513696755=&response-content-disposition=inline%3B+filename%3DSelf_efficacy_Toward_a_Unifying_Theory_o.pdf&Expires=1677750159&Signature=KM4PO4AlliSPYZiCOFJib1tmbaZdme~K3DMxt4ZiWw7H5kAFhR2vnpCgNhNsyu6xKQ64M7-FQZgaBSV6vvdO0G5u2FeWPXVdFknAM6YNoSYhhG10I38SwOIfkXso-JVSB5~2AbfqIH8OWHZW0nLs1Uw7BpdLiRYa06krl4kFv-9iYsrwo7jZ4rekLUZhMwHRQ~v9vltm0nbpEl08Kcz1r-65F6uItU4tN9cd8QBvyyEgGcpw3z3fHeUgYGmYp0Qr5r6zYf4n1QHLmxZOa6KoIg3DXQh3vzS8LNZ7NE1ij39PqbKLSYynKPSW9LQlfef1qdhJWtUK8yCSlfSTD7084Q__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA"
+          "url": "https://bit.ly/3y2lcvK"
         },
         {
           "titulo": "Self-Efficacy: The Exercise of Control",
           "url": "https://en.wikipedia.org/wiki/Self-Efficacy_(book)"
         }
       ],
-      "objetivoAprendizagem": [
+      "habilidades": [
         "Construir um ambiente onde as pessoas se sintam cada vez mais capazes."
       ]
     },
@@ -130,7 +130,7 @@ e) Cria a cultura do preparo: "The role of deliberate practice in the acquisitio
           "url": "https://edisciplinas.usp.br/pluginfile.php/5569441/mod_resource/content/4/2%20THE%20SCIENCE%20OF%20TRAINING-%20A%20Decade%20of%20Progress.pdf"
         }
       ],
-      "objetivoAprendizagem": [
+      "habilidades": [
         "Construir um ambiente onde estudar e treinar façam parte do trabalho."
       ]
     }
