@@ -1,6 +1,8 @@
 1. Descrição do motivo que explica a importância do plano:
 
-Este plano de estudos tem como objetivo fornecer aos estudantes os conhecimentos e habilidades necessárias para entender e utilizar a ferramenta STK CLI da versão 4.5.0 da plataforma StackSpot. Aprender a utilizar essa ferramenta é essencial para construir todas as peças tecnológicas da StackSpot;
+Este plano de estudos tem como objetivo fornecer aos estudantes os conhecimentos e habilidades necessárias para conhecer e utilizar a ferramenta STK CLI da versão 4.5.0 da plataforma StackSpot.
+
+Aprender a utilizar essa ferramenta é essencial para construir e utilizar todas as peças tecnológicas da StackSpot;
 
 1. Um objetivo de aprendizagem conectado com nível 3 da taxonomia de bloom que deixe claro onde a pessoa pode chegar caso ela siga o plano:
 
