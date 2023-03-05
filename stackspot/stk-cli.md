@@ -4,7 +4,7 @@ Este plano de estudos tem como objetivo fornecer aos estudantes os conhecimentos
 
 Aprender a utilizar essa ferramenta é essencial para construir e utilizar todas as peças tecnológicas da StackSpot;
 
-1. Um objetivo de aprendizagem conectado com nível 3 da taxonomia de bloom que deixe claro onde a pessoa pode chegar caso ela siga o plano:
+2. Um objetivo de aprendizagem conectado com nível 3 da taxonomia de bloom que deixe claro onde a pessoa pode chegar caso ela siga o plano:
 
 Ao finalizar esse plano de estudos, o estudante será capaz de importar ou criar Stacks, Templates, Plugins e Tasks e assim ter uma base para aplicar esses conceitos em projetos reais.
 
@@ -26,7 +26,7 @@ Ao finalizar esse plano de estudos, o estudante será capaz de importar ou criar
 - Criar Stacks, Templates e Plugins;
 - Importar Stacks já prontas para criar aplicações com a STK CLI; 
    
-1. Lista de temas que serão abordados no plano, com referências e objetivos de aprendizagem específicos:
+5. Lista de temas que serão abordados no plano, com referências e objetivos de aprendizagem específicos:
 
 - Conhecendo a StackSpot
 	- Objetivo de aprendizagem: Conhecer a plataforma StackSpot, o que ela é a plataforma, principais conceitos, para que ela foi criada, como ela funciona e quais as ferramentas/funcionalidades que a plataforma oferece.
@@ -80,7 +80,7 @@ Ao finalizar esse plano de estudos, o estudante será capaz de importar ou criar
 	- Referências 8: [Hands-on: Criando stacks para o Qa.Coders com a StackSpot ](https://youtu.be/wpTfMwM5S7s)
 	- Referências 9: [Hands-on: StackSpot Challenge 02/2023 ](https://youtu.be/wpTfMwM5S7s)
 
-1. Lista de palavras chave considerando todos os conceitos que são abordados no plano.
+6. Lista de palavras chave considerando todos os conceitos que são abordados no plano.
 
 STK, STK CLI, StackSpot CLI, stk, stack, plugin, template, tasks, hooks
 
