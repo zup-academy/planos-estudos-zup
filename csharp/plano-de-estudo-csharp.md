@@ -30,7 +30,7 @@ Ao final do plano de estudos,espera-se que a pessoa seja capaz de programar com 
 - Condicionais 
 - Estrututras de loops
 - Funções e Métodos
-  
+
 5.2 Orientação a objetos em C#
 - Classes  
 - Objetos 
@@ -58,6 +58,10 @@ Ao final do plano de estudos,espera-se que a pessoa seja capaz de programar com 
 - Pattern matching enhancements
 - Using declaration
 
+  **Livros de apoio:** 
+  - C# 9 and .NET 5  - Mark J.Price
+  - Programação em C# Para Iniciantes - Troy Dimes
+  
 ## Intermediário
 
 5.5 Desenvolvimento de aplicativos C#
@@ -87,6 +91,11 @@ Ao final do plano de estudos,espera-se que a pessoa seja capaz de programar com 
 - Newlines in string interpolation expressions
 - List patterns
 
+  **Livros de apoio:** 
+- Pro C# 9 with .NET 5: Foundational Principles and Practices in Programming  - Andrew Troelsen / P. Japikse
+- Design Patterns com C#: Aprenda padrões de projeto com os games -Rodrigo Santana
+
+
 ## Avançado
 
 5.7 Tópicos avançados de C#
@@ -97,4 +106,5 @@ Ao final do plano de estudos,espera-se que a pessoa seja capaz de programar com 
 - Paralelismo
 - Performance e otimização em C#
 
-
+  **Livros de apoio:** 
+- C# in Depth, Fourth Edition - Jon Skeet 
