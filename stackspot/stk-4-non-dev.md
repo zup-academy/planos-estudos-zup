@@ -49,7 +49,7 @@ Ao finalizar esse plano de estudos, o estudante será capaz de compreender o que
   - Referências 8: [O que a StackSpot resolve? | Docs StackSpot](https://docs.stackspot.com/docs/getting-started/how-it-works/#o-que-a-stackspot-resolve)
   - Referências 9: [Funcionalidades da StackSpot? | Docs StackSpot](https://docs.stackspot.com/docs/getting-started/how-it-works/#funcionalidades-da-stackspot)
   - Referências 10: [Visão Geral STK CLI | Docs StackSpot](https://docs.stackspot.com/docs/stk-cli/overview/)
-  - Referências 11: [Usando Stacks | Docs Stackpost](https://docs.stackspot.com/docs/use-stacks/user-quickstart/)
+  - Referências 11: [Usando Stacks | Docs StackSpot](https://docs.stackspot.com/docs/use-stacks/user-quickstart/)
 
 - Conteúdos adicionais
 
