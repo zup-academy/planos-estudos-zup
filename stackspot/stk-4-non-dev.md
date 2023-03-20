@@ -1,3 +1,7 @@
+Título: **StackSpot for All**
+
+
+
 1. Descrição do motivo que explica a importância do plano:
 
 Este plano de estudos tem como objetivo fornecer conceitos básicos e essenciais para pessoas não desenvolvedoras acerca da plataforma StackSpot;
