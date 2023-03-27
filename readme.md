@@ -20,7 +20,11 @@ Cada plano de estudo deve seguir a seguinte estrutura:
 1. Lista de objetivos de aprendizagem conectados com o determinado nível da taxonomia de bloom que se conecte com o objetivo de aprendizagem geral
 1. Lista de temas que serão abordados no plano ordenados por uma sequência lógica de consumo. Para cada tema do plano, é importante que tenha um conjunto de referências, de novo ordenado de maneira lógica e com links que possam ser seguidos para consumo daquela referência. Também é obrigatório que seja descrito o objetivo de aprendizagem específico relacionado ao tema baseado no nível escolhido da taxonomia de bloom. 
 1. Lista de palavras chave considerando todos os conceitos que são abordados no plano.
-1. Opcional: Três ou mais ideias de exercícios para que a pessoa exercite os conceitos abordados no plano de maneira combinada. Já que na vida real é assim que a coisa acontece. 
+1. Opcional: Para cada tema você pode gerar um ou mais exercícios.
+1. Opcional: Para cada tema você pode colocar uma ou mais pessoas como referências sobre aquele tema. 
+1. Opcional: Para cada plano de estudo você pode colocar uma ou mais pessoas como referências sobre ele.
+1. Protótipo no figma: [Link](https://www.figma.com/proto/GdErWyxAy6R2uT5wdbzYTw/Melhorias?node-id=1179-12702&starting-point-node-id=1179%3A12702)
+Você pode navegar no link acima com uma conta da Zup. Sugiro clicar em: 1- Quero seguir o plano 2- visitar vantagens e desvantagens de cada método que está completo com todos os opcionais. Você pode comparar com os outro temas que estão sem opcionais. 
 
 ### Curiosidade: O que é a taxnomia de bloom?
 
