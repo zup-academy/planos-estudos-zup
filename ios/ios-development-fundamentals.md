@@ -6,6 +6,8 @@ Caso tenha consumido o material anterior, você vai perceber que muitas das refe
 
 ## Passos do plano em si
 
+### iOS Development Fundamentals
+
 1. Motivação:
 
 O desenvolvimento de aplicações para o sistema operacional do iPhone já é consolidado há anos e conta com uma plataforma robusta que representa aproximadamente um quarto dos dispositivos smartphones pelo mundo. Com um número como esse é natural que sua loja oficial de aplicativos seja um meio muito atrativo das empresas oferecerem seus negócios a um grande número de clientes. A maior parte dos produtos digitais hoje se apoia em soluções para dispositivos móveis para suportar sua experiência e se especializar no desenvolvimento para uma plataforma tão importante para os dias atuais pode ser um importante diferencial para a carreira da pessoa desenvolvedora de software.
@@ -23,7 +25,8 @@ O objetivo deste plano de estudos é capacitar a pessoa a desenvolver aplicaçõ
 4.  Lista de temas que serão abordados no plano, com referências e objetivos de aprendizagem específicos:
 
 * Desenvolvimento mobile com iOS - Fundamentos
-    * Referências: Explorando o Mundo iOS (Treino na Handora)
+    * Referências: 
+    		* [Explorando o Mundo iOS - Handora Treino Completo](https://handora.zup.com.br/treino-completo/4)
     * Objetivos de Aprendizagem:
         * Criar e desenvolver novos projetos de apps iOS no XCode
         * Desenhar componentes visuais utilizando o Interface Builder do XCode
@@ -40,17 +43,17 @@ O objetivo deste plano de estudos é capacitar a pessoa a desenvolver aplicaçõ
           
 * UIKit Views
     * Referências: 
-        * iOS Programming: The Big Nerd Ranch Guide, 7th Edition: Capítulo 3. Views and View Hierarchy
-        * iOS Programming: The Big Nerd Ranch Guide, 7th Edition: Capítulo 5. Programmatic Views
+        * [3. Views and View Hierarchy - iOS Programming: The Big Nerd Ranch Guide, 7th Edition - Book Chapter](https://learning.oreilly.com/library/view/ios-programming-the/9780135264843/ch03.html)
+        * [5. Programmatic Views - iOS Programming: The Big Nerd Ranch Guide, 7th Edition](https://learning.oreilly.com/library/view/ios-programming-the/9780135264843/ch05.html)
     * Objetivos de Aprendizagem:
         * Entender o funcionamento de aplicações UIKit
         * Entender como são criadas as views em aplicações UIKit
 
 * Ciclos de Vida de Aplicação e Controladores
     * Referências:
-        * iOS Programming: The Big Nerd Ranch Guide, 7th Edition: Capítulo 4. View Controllers
-        * Programming iOS 13: Parte II - Interface: Capítulo 6. View Controllers
-        * Programming iOS 13: Parte IV - Final Topics: A. Lifetime Events
+        * [4. View Controllers - iOS Programming: The Big Nerd Ranch Guide, 7th Edition - Book Chapter](https://learning.oreilly.com/library/view/ios-programming-the/9780135264843/ch04.html)
+        * [II - Interface: 6. View Controllers - Programming iOS 13 - Book Chapter](https://learning.oreilly.com/library/view/programming-ios-13/9781492074601/part02ch01.html#chap_id19)
+        * [IV - Final Topics: A. Lifetime Events - Programming iOS 13 - Book Chapter](https://learning.oreilly.com/library/view/programming-ios-13/9781492074601/part04app01.html#appa)
     * Objetivos de Aprendizagem:
         * Entender o funcionamento de aplicações UIKit
         * Entender o ciclo de vida de uma aplicação UIKit
@@ -58,24 +61,24 @@ O objetivo deste plano de estudos é capacitar a pessoa a desenvolver aplicaçõ
 
 * Tópicos avançados de Swift
     * Referências:
-        * Swift in Depth: Capítulo 12. Protocol Extensions
-        * WWDC Talk - Protocol Oriented Programming in Swift
-        * WWDC Talk - Understanding Swift Performance
+        * [12. Protocol Extensions - Swift in Depth - Book Chapter ](https://learning.oreilly.com/library/view/swift-in-depth/9781617295188/kindle_split_018.html)
+        * [Protocol Oriented Programming in Swift - WWDC](https://developer.apple.com/videos/play/wwdc2015/408/)
+        * [Understanding Swift Performance - WWDC](https://developer.apple.com/videos/play/wwdc2016/416/)
     * Objetivos de Aprendizagem:
         * Entender tópicos avançados da linguagem como polimorfismo provido por protocolos e como isso favorece mecanismos de otimização de performance
         * Entender tópicos avançados da linguagem como diferenças entre uso de tipos referência e tipos de valor quanto ao modelo de memória da plaforma
     
 * Mecanismos fundamentais de persistencia
     * Referências:
-        * iOS Programming: The Big Nerd Ranch Guide, 7th Edition: Capítulo 13. Saving, Loading and Scene States
-        * Programming iOS 13: Parte IV - Final Topics: 22. Persistence Storage
+        * [13. Saving, Loading and Scene States - iOS Programming: The Big Nerd Ranch Guide, 7th Edition - Book Chapter](https://learning.oreilly.com/library/view/ios-programming-the/9780135264843/ch13.html)
+        * [IV - Final Topics: 22. Persistence Storage - Programming iOS 13 - Book Chapter](https://learning.oreilly.com/library/view/programming-ios-13/9781492074601/part04ch01.html#chap_id36)
     * Objetivos de aprendizagem:
         * Saber utilizar os mecanismos fundamentais de persistência da plataforma iOS
 
 * Gerenciamento de Memória
     * Referências:
-        * iOS 14 Programming Fundamentals with Swift: Parte III - Cocoa: 12. Memory Management
-        * WWDC Talk - Understanding Swift Performance
+        * [III - Cocoa: 12. Memory Management - iOS 14 Programming Fundamentals with Swift - Book Chapter](https://learning.oreilly.com/library/view/ios-14-programming/9781492092087/part03ch03.html#chap_id12)
+        * [Understanding Swift Performance - WWDC](https://developer.apple.com/videos/play/wwdc2016/416/)
     * Objetivos de Aprendizagem
         * Entender como funciona o mecanismo de gerenciamento de memória na plataforma iOS
         * Tirar proveito do conhecimento dos detalhes técnicos da plataforma para escrever código performático e que faz uso adequado de recursos
