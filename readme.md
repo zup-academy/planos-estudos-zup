@@ -23,8 +23,14 @@ Cada plano de estudo deve seguir a seguinte estrutura:
 1. Opcional: Para cada tema você pode gerar um ou mais exercícios.
 1. Opcional: Para cada tema você pode colocar uma ou mais pessoas como referências sobre aquele tema. 
 1. Opcional: Para cada plano de estudo você pode colocar uma ou mais pessoas como referências sobre ele.
-1. Protótipo no figma: [Link](https://www.figma.com/proto/GdErWyxAy6R2uT5wdbzYTw/Melhorias?node-id=1179-12702&starting-point-node-id=1179%3A12702)
-Você pode navegar no link acima com uma conta da Zup. Sugiro clicar em: 1- Quero seguir o plano 2- visitar vantagens e desvantagens de cada método que está completo com todos os opcionais. Você pode comparar com os outro temas que estão sem opcionais. 
+
+### Exemplo de plano de estudos:
+
+[Conteúdo interno - lista de conteúdo](https://drive.google.com/file/d/1Bry2SSd1q_FexAoE2odvV6A-kZhMyl0V/view?usp=share_link)
+
+[Tela introdução perfil plano de estudo](https://drive.google.com/file/d/1XjJC1mvWDoUhhc1USD-9i7ZEl3HzhP5A/view?usp=share_link)
+
+[Telas internas plano de estudo](https://drive.google.com/file/d/1H7XCVRObI_n9dEftSyyj5KAmprdm3ixU/view?usp=share_link)
 
 ### Curiosidade: O que é a taxnomia de bloom?
 
