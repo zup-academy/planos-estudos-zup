@@ -4,6 +4,8 @@ Este plano foi criado a partir da junção de referências teóricas como artigo
 
 ## Passos do plano em si
 
+### iOS Application Security
+
 1. Motivação:
 
 Smartphones são atualmente os dispositivos mais usados pelo público ao consumir o conteúdo disponível na rede mundial de computadores. Seja através das versões móveis de navegadores de internet ou de aplicações nativas, as pessoas estão interagindo através deles para se informar, comunicar e consumir produtos e serviços de diversas empresas que desenvolvem aplicações. A participação da plataforma iOS nesse mercado é, como esperado, expressiva, e portanto, com a união de um número massivo de pessoas consumindo e produzindo informação através dela, é natural que crackers sejam atraídos pela possibilidade de exploração de vulnerabilidades na plataforma, em especial pela natureza da distribuição de aplicações nativas. Sendo assim é de fundamental importância que pessoas desenvolvedoras de aplicativos iOS compreendam essas possíveis brechas de segurança e estejam aptas a desenvolver estratégias defensivas para oferecer uma boa e segura experiência de utilização ao usuário.
