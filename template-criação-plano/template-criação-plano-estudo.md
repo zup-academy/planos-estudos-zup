@@ -26,14 +26,14 @@
 
 Obs.: o que não está escrito como opcional é obrigatório.
 
-### Curiosidade: O que é a taxonomia de bloom?
-
-[Encontre uma explicação bem completa na wikipedia](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy). [Além disso está outra página traz um resumo que facilita o entendimento.](https://www.coloradocollege.edu/other/assessment/how-to-assess-learning/learning-outcomes/blooms-revised-taxonomy.html#:~:text=There%20are%20six%20levels%20of,analyzing%2C%20evaluating%2C%20and%20creating)
-
 ## Exemplo de Plano de Estudos estruturado
 
 Siga o exemplo abaixo, incluindo nomes dos campos e estrutura para criar um novo plano.
 [Segue plano estruturado como exemplo a ser seguido](https://github.com/zup-academy/planos-estudos-zup/blob/master/application/solid.md)
+
+### Curiosidade: O que é a taxonomia de bloom?
+
+[Encontre uma explicação bem completa na wikipedia](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy). [Além disso está outra página traz um resumo que facilita o entendimento.](https://www.coloradocollege.edu/other/assessment/how-to-assess-learning/learning-outcomes/blooms-revised-taxonomy.html#:~:text=There%20are%20six%20levels%20of,analyzing%2C%20evaluating%2C%20and%20creating)
 
 Se tiver familiaridade e quiser, pode mandar ainda em JSON, como por
 exemplo: [Plano em JSON](https://gist.github.com/jacksonmotazup/a4f9507d4ec1ea7f8ad75f123122a3ca)
