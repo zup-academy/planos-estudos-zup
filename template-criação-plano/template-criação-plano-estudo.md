@@ -14,10 +14,10 @@
 	3. Lista contendo uma ou mais Referências, em sequência lógica de consumo. Cada Referência contem:
 		1. Titulo da Referência
 		2. URL (link) para consumo dessa Referência (vídeo, curso, livro, artigo, etc)
-	4. Opcional: uma lista com formas de verificação do conhecimento do Tema, contendo um titulo (nome de uma pessoa
+	4. Opcional: uma lista com formas de validação do conhecimento do Tema, contendo um titulo (nome de uma pessoa
 		 especialista
 		 por exemplo) e um link (que pode ser o link ao github ou linkedin dessa pessoa)
-	5. Opcional: uma lista com formas de validação do conhecimento do Tema, contendo um titulo (nome do exercício a ser
+	5. Opcional: uma lista com formas de verificação do conhecimento do Tema, contendo um titulo (nome do exercício a ser
 		 praticado por exemplo) e um link(o link de acesso a esse exercício para validar o conhecimento do tema)
 6. Lista de palavras chave considerando todos os conceitos que são abordados no plano.
 7. Opcional: uma lista com formas de verificação do conhecimento do Plano todo, contendo um titulo (nome de uma pessoa
