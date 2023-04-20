@@ -20,7 +20,7 @@
 	5. Opcional: uma lista com formas de verificação do conhecimento do Tema, contendo um titulo (nome do exercício a ser
 		 praticado por exemplo) e um link(o link de acesso a esse exercício para validar o conhecimento do tema)
 6. Lista de palavras chave considerando todos os conceitos que são abordados no plano.
-7. Opcional: uma lista com formas de verificação do conhecimento do Plano todo, contendo um titulo (nome de uma pessoa
+7. Opcional: uma lista com formas de validação do conhecimento do Plano todo, contendo um titulo (nome de uma pessoa
 	 especialista
 	 por exemplo) e um link (que pode ser o link ao github ou linkedin dessa pessoa)
 
