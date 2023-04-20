@@ -28,6 +28,7 @@ Referência 1: SOLID (O básico para você programar melhor) // Dicionário do P
 url:https://youtu.be/mkx0CdWiPRA)
 Referência 2: Clean Code e Solid com Alberto Sousa, o Dev Eficiente (url: https://youtu.be/XV9B4LX_re8)
 Referência 3: SOLID fica FÁCIL com Essas Ilustrações (url:https://youtu.be/6SfrO3D4dHM)
+habilidades: "Entendendo Orientação a Objetos e SOLID"
 
 ### Tema 1: Orientação a Objetos e SOLID
 
