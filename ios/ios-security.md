@@ -56,8 +56,8 @@ O objetivo deste plano de estudos é capacitar a pessoa a desenvolver experiênc
     * Referências:
         * Chapter 1 - Mobile Application (In)Security - The Mobile Application Hacker's Handbook - Book Chapter
             * https://learning.oreilly.com/library/view/the-mobile-application/9781118958513/c01.xhtml
-        * Chapter 2 - Analysing iOS Application - The Mobile Application Hacker's Handbook - Book Chapter
-            * https://learning.oreilly.com/library/view/the-mobile-application/9781118958513/c02.xhtml
+        * iOSSecuritySuite - Repo
+            * https://github.com/securing/IOSSecuritySuite
     
 
 * Sobre como é possível conduzir ataques e testes à segurança de uma aplicação iOS
@@ -65,8 +65,8 @@ O objetivo deste plano de estudos é capacitar a pessoa a desenvolver experiênc
         * Entender as estratégias de ataque à aplicações iOS
         * Entender as estratégias de testes/avaliação de segurança de aplicações iOS
     * Referências:
-        * Chapter 3 - Attacking iOS Applications - The Mobile Application Hacker's Handbook - Book Chapter
-            * https://learning.oreilly.com/library/view/the-mobile-application/9781118958513/c03.xhtml
+        * Udemy - Hacking and Pentesting iOS Applications - Course
+            * https://itau.udemy.com/course/hacking-and-pentesting-ios-applications/
         * Chapter 4 - Identifying iOS Implementation Insecurities -  The Mobile Application Hacker's Handbook - Book Chapter
             * https://learning.oreilly.com/library/view/the-mobile-application/9781118958513/c04.xhtml
         * Part II - Security Testing - iOS Application Security - Book Chapter
@@ -79,6 +79,12 @@ O objetivo deste plano de estudos é capacitar a pessoa a desenvolver experiênc
     * Referências:
         * Chapter 5 - Writing Secure iOS Applications - The Mobile Application Hacker's Handbook - Book Chapter
             * https://learning.oreilly.com/library/view/the-mobile-application/9781118958513/c05.xhtml
+        * Crypto Swift - Pacote oficial da Apple com camadas de abstração para implementar criptografias primitivas em aplicações modernas
+            * https://github.com/apple/swift-crypto
+        * Swift Crypto Oficial Documentation
+            * https://developer.apple.com/documentation/cryptokit/
+        * Introducing Swift Crypto - Swift.org Documentation
+            * https://www.swift.org/blog/crypto/
     
 
 6. Palavras-chave:
