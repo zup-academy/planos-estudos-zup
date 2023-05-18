@@ -1,0 +1,311 @@
+{
+  "titulo": "Tunando a JVM e diagnosticando gargalos de performance em aplicações Java",
+  "motivacao": "Aplicações complexas ou que lidam com high-throughput escritas em Java estão sujeitas a problemas de performance, escalabilidade e resiliência relacionados a JVM, como configuração incorreta da memória, ausência de tuning do GC, sobrecargas na aplicação que causam erros de OutOfMemoryError e até vazamentos de memória (memory leaks) em vários níveis da aplicação, incluindo bibliotecas e frameworks. Estes tipos de problemas geralmente levam a lentidão, erros constantes ou mesmo indisponibilidade da aplicação como um todo.\n\nPara minimizar estes riscos, a pessoa especialista precisa entender e se sentir confortável com a JVM e seu modelo de gerenciamento de memória, como o Garbage Collector (GC) funciona e limpa os objetos da memória, como monitorar a aplicação em tempo real, como parametrizar a JVM e GC para os requisitos e realidade do negócio, e por fim como identificar e corrigir problemas de vazamento de memória na aplicação.\n\nPara isso, neste plano estudaremos a JVM e seu modelo de memória com uma certa profundidade, como monitorar a JVM via ferramentas de profiling como VisualVM e GCEasy, além de configurar e tunar a JVM e GC para cargas de trabalho (workloads) apropriados para seu contexto e ambiente de produção; e não menos importante, como detectar e atacar problemas de vazamento de memória por meio de ferramentas como VisualVM, Eclipse MAT e GCEasy.",
+  "objetivo": "Ao finalizar este plano de estudo a pessoa será capaz de diagnosticar, identificar e resolver problemas, bugs e gargalos de performance relacionados ao gerenciamento de memória da JVM, tuning incorreto da JVM e GC, OutOfMemoryErrors e vazamentos de memória (memory leaks).",
+  "preRequisitos": [
+    "Saber desenhar, construir e rodar aplicações Java ou escritas na JVM (Java Virtual Machine) em ambiente local ou compartilhado;",
+    "Saber implementar aplicações que conversem com outras aplicações e serviços através da rede usando protocolos de comunicação;",
+    "Saber automatizar processos escritos em Shell Script ou Maven para compilar, rodar bateria de testes e empacotar aplicações Java;",
+    "Saber como um sistema operacional (OS) funciona, incluindo seu gerenciamento de memória, CPU e disco, e também como instalar e configurar softwares e ferramentas;",
+    "Saber ler e interpretar conteúdo técnico em inglês;",
+    "Plano de estudo sobre Testes de carga e estresse com jMeter, tema \"Introdução a testes de carga e estresse com jMeter\";"
+  ],
+  "palavrasChave": [
+    "application",
+    "load testing",
+    "stress testing",
+    "jmeter",
+    "distributed systems",
+    "performance",
+    "scalability",
+    "throughput",
+    "memory leak",
+    "eclipse mat",
+    "visualvm",
+    "vm",
+    "virtual machine",
+    "java",
+    "jvm",
+    "tuning",
+    "outofmemoryerror",
+    "out of memory error",
+    "heap memory",
+    "profiling",
+    "gceasy",
+    "garbage collector",
+    "garbage collection",
+    "gc"
+  ],
+  "temas": [
+    {
+      "titulo": "Introdução a JVM, modelo de memória e diagnosticando OutOfMemoryErrors",
+      "referencias": [
+        {
+          "titulo": "Vídeo - Zup Edu: Introdução ao modelo de memória e Garbage Collection (GC) na JVM (30min | pt_BR)",
+          "url": "https://www.youtube.com/watch?v=UGm0skBKmdY&ab_channel=4Zuppers"
+        },
+        {
+          "titulo": "Vídeo - Zup Edu: Conhecendo e setando parâmetros da JVM (13min | pt_BR)",
+          "url": "https://www.youtube.com/watch?v=7JccXVLAQzE&ab_channel=4Zuppers"
+        },
+        {
+          "titulo": "Texto - Zup Edu: Parâmetros importantes da JVM para gerenciamento de memória, GC e troubleshooting (5min | pt_BR)",
+          "url": "https://gist.github.com/rponte/5ad3689e7cc57796a775db825c94b9ca"
+        },
+        {
+          "titulo": "Vídeo - Zup Edu: Introdução a monitoramento da JVM com VisualVM (12min | pt_BR)",
+          "url": "https://www.youtube.com/watch?v=LBxFYUsnanM&ab_channel=4Zuppers"
+        },
+        {
+          "titulo": "Vídeo - Zup Edu: Introdução ao jMeter - Meu primeiro teste de carga (26min | pt_BR)",
+          "url": "https://www.youtube.com/watch?v=F_8bPHuNb_Y&ab_channel=4Zuppers"
+        },
+        {
+          "titulo": "Vídeo - Zup Edu: Troubleshooting de OutOfMemoryError em aplicação Java e Spring Boot (39min | pt_BR)",
+          "url": "https://www.youtube.com/watch?v=WW8X8giVmX0&ab_channel=4Zuppers"
+        },
+        {
+          "titulo": "Texto - Detect proactively whether application’s memory is under-allocated (5min | en)",
+          "url": "https://blog.gceasy.io/2021/10/15/detect-proactively-whether-applications-memory-is-under-allocated/"
+        },
+        {
+          "titulo": "Vídeo - Detect proactively whether application’s memory is under-allocated (15min | en)",
+          "url": "https://youtu.be/btnI7qRTb3U"
+        },
+        {
+          "titulo": "Texto - Eliminate consecutive full GCs (5min | en)",
+          "url": "https://blog.gceasy.io/2016/11/22/eliminate-consecutive-full-gcs/"
+        },
+        {
+          "titulo": "Vídeo - JVM Memory - Learn Easily (9min | en)",
+          "url": "https://youtu.be/uJLOlCuOR4k?list=PLHMMERsvy9EziQddqxpbbxO_mVXm95VtZ"
+        },
+        {
+          "titulo": "Texto - OutOfMemoryError: Kill process or sacrifice child – causes & solutions (4min | en)",
+          "url": "https://blog.gceasy.io/2021/07/27/outofmemoryerror-kill-process-or-sacrifice-child-causes-solutions/"
+        }
+      ],
+      "habilidades": [
+        "Entender e explicar como a JVM e seu modelo de gerenciamento de memória funcionam",
+        "Entender e explicar o funcionamento do Garbage Collection (GC) da JVM",
+        "Explicar, configurar e tunar a memória e GC via parâmetros da JVM",
+        "Monitorar aplicações Java e avaliar uso de rescursos importantes da JVM via VisualVM e GCEasy",
+        "Escrever e executar planos de testes básicos de carga (load testing) e estresse (stress testing) com jMeter",
+        "Entender, explicar e identificar padrões do GC que podem revelar configurações incorretas de memória na aplicação"
+      ],
+      "formasVerificacaoConhecimento": [
+        {
+          "titulo": "Escreva um resumo do que consumiu dentro deste tema do plano",
+          "url": "https://zup1.typeform.com/to/VCieUsAf"
+        }
+      ]
+    },
+    {
+      "titulo": "Diagnosticando vazamentos de memória (memory leaks)",
+      "referencias": [
+        {
+          "titulo": "Vídeo - Zup Edu: Entendendo vazamentos de memória em uma aplicação na JVM (17min | pt_BR)",
+          "url": "https://www.youtube.com/watch?v=z-BNhRrug68&ab_channel=4Zuppers"
+        },
+        {
+          "titulo": "Vídeo - Zup Edu: Gerando dumps de memória (Heap Dumps) em uma aplicação na JVM (16min | pt_BR)",
+          "url": "https://www.youtube.com/watch?v=mPrjyW6n_8w&ab_channel=4Zuppers"
+        },
+        {
+          "titulo": "Vídeo - Zup Edu: Troubleshooting de Memory Leak em aplicação Java e Spring Boot (57min | pt_BR)",
+          "url": "https://www.youtube.com/watch?v=J6nj2t0TwlY&ab_channel=4Zuppers"
+        },
+        {
+          "titulo": "Texto - Baeldung: Understanding Memory Leaks in Java (15min | en)",
+          "url": "https://www.baeldung.com/java-memory-leaks"
+        },
+        {
+          "titulo": "Texto - Garbage Collection Patterns to predict outages (5min | en)",
+          "url": "https://blog.gceasy.io/2021/10/15/interesting-garbage-collection-patterns/"
+        },
+        {
+          "titulo": "Vídeo - Garbage Collection Patterns to predict outages (15min | en)",
+          "url": "https://youtu.be/4jlfd3XCeTM"
+        },
+        {
+          "titulo": "Vídeo - Troubleshooting OutOfMemoryError - Heap dump, Eclipse MAT (29min | en)",
+          "url": "https://youtu.be/SuguH8YBl5g"
+        },
+        {
+          "titulo": "Vídeo - Kevin Grigorenko: Eclipse Memory Analyzer Tool (59min | en)",
+          "url": "https://www.youtube.com/watch?v=sLoifF_YA4w&ab_channel=SDJavaUsersGroup"
+        },
+        {
+          "titulo": "Vídeo - Solving Java Memory Leaks (45min | en)",
+          "url": "https://www.youtube.com/watch?v=E2KYTXKUsT4&ab_channel=OracleDevelopers"
+        },
+        {
+          "titulo": "Texto - Eclipse MAT – Incoming references, outgoing references (5min | en)",
+          "url": "https://blog.gceasy.io/2019/02/05/eclipse-mat-incoming-references-outgoing-references/"
+        },
+        {
+          "titulo": "Texto - Shallow heap, retained heap (6min | en)",
+          "url": "https://blog.gceasy.io/2019/01/03/shallow-heap-retained-heap/"
+        },
+        {
+          "titulo": "Vídeo - Shallow heap, retained heap (8min | en)",
+          "url": "https://youtu.be/Ns4Du2Qh91Y"
+        },
+        {
+          "titulo": "Vídeo - Quickly Analysing A Heap Memory Leak by Jack Shirazi (28min | en)",
+          "url": "https://youtu.be/JoQN4xoXY5Y"
+        },
+        {
+          "titulo": "Texto - Eclipse MAT – Tips to use this tool effectively (8min | en)",
+          "url": "https://blog.gceasy.io/2015/08/14/how-to-capture-heap-dump-jmap/"
+        },
+        {
+          "titulo": "Texto - How to capture heap dump with jmap? (5min | en)",
+          "url": "https://blog.gceasy.io/2015/08/14/how-to-capture-heap-dump-jmap/"
+        }
+      ],
+      "habilidades": [
+        "Entender e explicar como memory leaks acontecem em aplicações Java",
+        "Entender e explicar como o GC se comporta quando há vazamento de memória em aplicações Java",
+        "Gerar Heap Dumps e GC Logs via VisualVM e linha de comando",
+        "Importar GC Logs no serviço GCEasy para avaliar o comportamento do GC e potenciais problemas de performance",
+        "Monitorar aplicações Java e avaliar potenciais memory leaks na aplicação via VisualVM, Eclipse MAT e GCEasy",
+        "Entender, explicar e identificar heurísticas do GC que podem revelar potenciais memory leaks e problemas de performance na aplicação"
+      ],
+      "formasVerificacaoConhecimento": [
+        {
+          "titulo": "Escreva um resumo do que consumiu dentro deste tema do plano",
+          "url": "https://zup1.typeform.com/to/VCieUsAf"
+        }
+      ]
+    },
+    {
+      "titulo": "Um pouco mais sobre troubleshooting e tuning na JVM e GC",
+      "referencias": [
+        {
+          "titulo": "Vídeo - Zup: Ajuste da performance Java em Kubernetes por Bruno Borges (1h | pt_BR)",
+          "url": "https://www.youtube.com/watch?v=uGt1WKZK__0&ab_channel=Zup"
+        },
+        {
+          "titulo": "Vídeo - GC Tuning & Troubleshooting Crash Course | Ram Lakshmanan (52min | en)",
+          "url": "https://youtu.be/6G0E4O5yxks"
+        },
+        {
+          "titulo": "Vídeo - Am I Reading Garbage Collection Logs Correctly? (46min | en)",
+          "url": "https://youtu.be/4HTPzqaYuUQ"
+        },
+        {
+          "titulo": "Vídeo - 16 artifacts to capture when there is a production problem by Ram Lakshmanan (31min | en)",
+          "url": "https://www.youtube.com/watch?v=G8YHRw_kOa8&ab_channel=J4K"
+        },
+        {
+          "titulo": "Vídeo - Troubleshooting Memory Problems in Java Applications (42min | en)",
+          "url": "https://youtu.be/iixQAYnBnJw"
+        },
+        {
+          "titulo": "Vídeo - Troubleshooting Live Java Web Applications (1h | en)",
+          "url": "https://youtu.be/mzT7etWjj0Q"
+        },
+        {
+          "titulo": "Vídeo - Monitoring and Troubleshooting Tools in the JDK (42min | en)",
+          "url": "https://youtu.be/mcfubUmbZhQ"
+        },
+        {
+          "titulo": "Texto - Simple & effective G1 GC tuning tips (10min | en)",
+          "url": "https://blog.gceasy.io/2020/06/02/simple-effective-g1-gc-tuning-tips/"
+        },
+        {
+          "titulo": "Texto - Best practices: Java memory arguments for Containers (10min | en)",
+          "url": "https://blog.gceasy.io/2020/11/05/best-practices-java-memory-arguments-for-containers/"
+        },
+        {
+          "titulo": "Texto - GC Log analysis compliments APM (10min | en)",
+          "url": "https://blog.gceasy.io/2018/11/12/gc-log-analysis-compliments-apm/"
+        },
+        {
+          "titulo": "Texto - GC Duration VS. GC Pause Duration (5min | en)",
+          "url": "https://blog.gceasy.io/2017/12/06/gc-duration-vs-gc-pause-duration/"
+        },
+        {
+          "titulo": "Texto - Minor GC vs Major GC vs Full GC (5min | en)",
+          "url": "https://plumbr.io/blog/garbage-collection/minor-gc-vs-major-gc-vs-full-gc"
+        },
+        {
+          "titulo": "Texto - StackOverflowError: Causes & Solutions (5min | en)",
+          "url": "https://blog.fastthread.io/2018/09/24/stackoverflowerror/"
+        },
+        {
+          "titulo": "Texto - 7 JVM arguments of Highly Effective Applications (20min | en)",
+          "url": "https://blog.gceasy.io/2020/03/18/7-jvm-arguments-of-highly-effective-applications/"
+        },
+        {
+          "titulo": "Texto - Buggy App: Simulate performance problems (10min | en)",
+          "url": "https://blog.ycrash.io/2020/10/26/buggy-app-simulate-performance-problems/"
+        }
+      ],
+      "habilidades": [
+        "Obter um panorama geral de problemas comuns de performance relacionados ao GC",
+        "Entender e identificar com maior precisão e segurança problemas de performance ligados ao GC",
+        "Conhecer e entender parâmetros da JVM e GC para tuning fino, incluindo ambientes containerizados",
+        "Entender e explicar como tirar proveito de ferramentas de profiling opensource e da JDK para diagnosticar problemas de performance em aplicações Java"
+      ],
+      "formasVerificacaoConhecimento": [
+        {
+          "titulo": "Escreva um resumo do que consumiu dentro deste tema do plano",
+          "url": "https://zup1.typeform.com/to/VCieUsAf"
+        }
+      ]
+    },
+    {
+      "titulo": "Quero me aprofundar no tema",
+      "referencias": [
+        {
+          "titulo": "Livro - Troubleshooting Java - Part II, Chapter 6: Identifying resource consumption problems using profiling techniques (en)",
+          "url": "https://learning.oreilly.com/library/view/troubleshooting-java/9781617299773/OEBPS/Text/06.htm"
+        },
+        {
+          "titulo": "Livro - Troubleshooting Java - Part II, Chapter 11: Finding memory-related issues in an app’s execution (en)",
+          "url": "https://learning.oreilly.com/library/view/troubleshooting-java/9781617299773/OEBPS/Text/11.htm"
+        },
+        {
+          "titulo": "Livro - Troubleshooting Java Performance - Part III, Chapter 12: Heap, the “h” in P.A.t.h. (en)",
+          "url": "https://learning.oreilly.com/library/view/troubleshooting-java-performance/9781484229798/A449023_1_En_12_Chapter.html"
+        },
+        {
+          "titulo": "Livro - Troubleshooting Java Performance - Part III, Chapter 11: Threads, the “t” in P.A.t.h. (en)",
+          "url": "https://learning.oreilly.com/library/view/troubleshooting-java-performance/9781484229798/A449023_1_En_11_Chapter.html"
+        },
+        {
+          "titulo": "Livro - Systems Performance, 2nd Edition - Chapter 7: Memory (en)",
+          "url": "https://learning.oreilly.com/library/view/systems-performance-2nd/9780136821694/ch07.xhtml"
+        },
+        {
+          "titulo": "Curso - JVM Performance Training (en)",
+          "url": "https://ycrash.io/java-performance-training"
+        },
+        {
+          "titulo": "Curso - Udemy: Java Application Performance Tuning and Memory Management - Chapter 9: The Metaspace and internal JVM memory optimisations (21min | en)",
+          "url": "https://www.udemy.com/course/java-application-performance-and-memory-management/"
+        },
+        {
+          "titulo": "Curso - Udemy: Java Application Performance Tuning and Memory Management - Chapter 10: Tuning the JVM’s Memory Settings (30min | en)",
+          "url": "https://www.udemy.com/course/java-application-performance-and-memory-management/"
+        },
+        {
+          "titulo": "Curso - Udemy: Java Application Performance Tuning and Memory Management - Chapter 16: Using a profiler to analyse application performance (46min | en)",
+          "url": "https://www.udemy.com/course/java-application-performance-and-memory-management/"
+        }
+      ],
+      "habilidades": [
+        "Entender e explicar com maior profundidade como a JVM e GC gerenciam a memória da aplicação",
+        "Entender e explicar com maior profundidade como detectar, identificar e resolver problemas relacionados a memória na JVM"
+      ],
+      "formasValidacaoConhecimento": [
+        {
+          "titulo": "Será que agora você consegue construir uma stack completa para compartilhar seu conhecimento via Stackspot? Verifique o desafio",
+          "url": "https://zup1.typeform.com/to/q8lD8vcv"
+        }
+      ]
+    }
+  ]
+}
